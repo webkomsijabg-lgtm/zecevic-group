@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Zečević Group | Servis za Citroen vozila, limarija i vulkanizer, Pašino brdo</title>
+<meta name="description" content="Zečević Group, Radmile Milanović Šnajder 10, Pašino brdo: auto servis za Citroen vozila, limarija i vulkanizer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Kalam:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14304f;--navy2:#1d4470;--grid:#d6e0ea;--paper:#f3f5f6;--red:#c6372c;--ink:#162231;--mut:#5e6a76;--line:#d3dbe3}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"IBM Plex Sans",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;font-size:16.5px}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;line-height:1;letter-spacing:-.01em;color:var(--navy)}
+h2{font-size:clamp(34px,4.6vw,58px);margin-bottom:14px}
+h3{font-size:22px}
+.mono{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.note-h{font-family:Kalam,cursive;color:var(--red);font-size:22px;line-height:1.2}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.kick{font-family:"IBM Plex Mono";font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:12px}
+.lead{color:var(--mut);font-size:18px;max-width:620px}
+section{padding:90px 0}
+.gridbg{background-color:var(--paper);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:28px 28px}
+.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:15px 24px;border-radius:4px}
+.btn-o{display:inline-block;border:1.5px solid var(--navy);color:var(--navy);text-decoration:none;font-weight:600;padding:13px 22px;border-radius:4px}
+.demo{background:var(--ink);color:#dfe6ec;font-size:13px;text-align:center;padding:9px 16px}
+.hdr{position:sticky;top:0;z-index:50;background:var(--navy);color:#dfe6ec}
+.hdr .wrap{display:flex;justify-content:space-between;align-items:center;height:68px;gap:16px}
+.logo{font-family:"IBM Plex Sans Condensed";font-weight:700;font-size:24px;text-decoration:none;white-space:nowrap;letter-spacing:.02em}
+.logo small{font-family:"IBM Plex Mono";font-size:11px;color:#9fb4ca;margin-left:8px;letter-spacing:.1em}
+.hdr nav{display:flex;gap:22px}
+.hdr nav a{text-decoration:none;font-size:15px;color:#b6c6d6}
+.hdr nav a:hover{color:#fff}
+.right{display:flex;gap:10px;align-items:center}
+.tel{background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:9px 16px;border-radius:4px;font-size:15px;white-space:nowrap}
+.burger{display:none;width:46px;height:46px;border:1.5px solid #3c5f86;border-radius:4px;background:transparent;cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:5px}
+.burger i{display:block;width:20px;height:2px;background:#dfe6ec;transition:.25s}
+.hdr.open .burger i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hdr.open .burger i:nth-child(2){opacity:0}
+.hdr.open .burger i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:center;padding-top:56px;padding-bottom:70px}
+.hero h1{font-size:clamp(44px,6.4vw,84px)}
+.hero h1 span{color:var(--red)}
+.hero p{color:var(--mut);font-size:18px;margin:20px 0 28px;max-width:480px}
+.acts{display:flex;gap:12px;flex-wrap:wrap}
+.bp{background:var(--navy);border-radius:6px;padding:26px;position:relative;box-shadow:0 30px 50px -34px rgba(20,48,79,.8)}
+.bp svg{width:100%;height:auto}
+.bp .mono{position:absolute;color:#9fb4ca;font-size:11px}
+.specs{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--navy);border-bottom:1px solid var(--line);background:#fff}
+.specs div{padding:22px;border-right:1px solid var(--line)}
+.specs div:last-child{border:0}
+.specs b{font-family:"IBM Plex Sans Condensed";font-size:26px;color:var(--navy);display:block}
+.specs span{color:var(--mut);font-size:14.5px}
+/* damage */
+.dmg{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;margin-top:36px;align-items:start}
+.dl{display:grid;gap:10px}
+.dl button{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:center;text-align:left;background:#fff;border:1.5px solid var(--line);border-radius:6px;padding:14px 16px;font:500 16px "IBM Plex Sans";cursor:pointer;color:var(--ink)}
+.dl button svg{width:44px;height:30px}
+.dl button.on{border-color:var(--navy);box-shadow:inset 4px 0 0 var(--red)}
+.card{background:#fff;border:1.5px solid var(--navy);border-radius:6px;padding:30px;position:sticky;top:90px}
+.card .mono{color:var(--red)}
+.card h3{font-size:30px;margin:8px 0 12px}
+.card p{color:var(--mut)}
+.card ol{margin:14px 0 0 20px;color:var(--mut)}
+.card ol li{padding:4px 0}
+.card .btn{margin-top:20px}
+.disc{font-size:13px;color:var(--mut);margin-top:14px}
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:40px;border:1.5px solid var(--navy)}
+.s{padding:30px;border-right:1px solid var(--line);background:#fff}
+.s:last-child{border:0}
+.s .mono{color:var(--red);display:block;margin-bottom:10px}
+.s img{width:100%;height:180px;object-fit:cover;margin-bottom:18px;filter:saturate(.8)}
+.s p{color:var(--mut);font-size:15px;margin-top:8px}
+/* brand */
+.bl{background:var(--navy);color:#cfdbe7}
+.bl h2{color:#fff}.bl .lead{color:#a9bccf}
+.bgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.bgrid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px}
+.chk li{list-style:none;padding:12px 0 12px 32px;border-bottom:1px solid rgba(255,255,255,.14);position:relative}
+.chk li:before{content:"";position:absolute;left:2px;top:17px;width:14px;height:14px;border:2px solid var(--red);transform:rotate(45deg)}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:40px}
+.st{padding:24px 24px 0 0;border-top:2px solid var(--navy);position:relative}
+.st:before{content:"";position:absolute;top:-7px;left:0;width:12px;height:12px;background:var(--red);border-radius:50%}
+.st .mono{color:var(--red)}
+.st p{color:var(--mut);font-size:15px;margin-top:6px}
+.gal{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:14px;margin-top:34px}
+.gal img{width:100%;height:260px;object-fit:cover;border-radius:4px}
+.ph{font-size:14px;color:var(--mut);font-style:italic;margin-top:12px}
+.slot{border:2px dashed #aab8c6;border-radius:6px;padding:34px;text-align:center;color:var(--mut);margin-top:40px;background:#fff}
+.fg{display:grid;grid-template-columns:1fr 1.5fr;gap:56px}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;font-weight:600;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:14px}
+summary:after{content:"+";font-family:"IBM Plex Mono";color:var(--red)}
+details[open] summary:after{content:"–"}
+details p{color:var(--mut);margin-top:8px;font-size:15.5px}
+.visit .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:46px}
+.tbl{width:100%;border-collapse:collapse;margin-top:20px;background:#fff;border:1.5px solid var(--navy)}
+.tbl td{padding:12px 16px;border-bottom:1px solid var(--line);font-size:15.5px}
+.tbl td:first-child{font-family:"IBM Plex Mono";font-size:12.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);width:40%}
+.map{border:1.5px solid var(--navy);min-height:460px}
+.map iframe{width:100%;height:100%;min-height:457px;border:0;filter:grayscale(.3)}
+footer{background:var(--ink);color:#9fb0c0;padding:50px 0 26px;font-size:14.5px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px}
+footer h4{color:#fff;font-family:"IBM Plex Sans Condensed";font-size:18px;margin-bottom:10px}
+footer ul{list-style:none}footer li{margin:5px 0}footer a{text-decoration:none}
+.copy{border-top:1px solid rgba(255,255,255,.1);margin-top:34px;padding-top:18px;font-size:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.callbar{display:none}
+@media(max-width:980px){
+ .burger{display:flex}
+ .hdr nav{display:none;position:absolute;top:68px;left:0;right:0;flex-direction:column;gap:0;background:var(--navy);border-bottom:2px solid var(--red);padding:6px 20px 16px}
+ .hdr.open nav{display:flex}
+ .hdr nav a{padding:14px 0;border-bottom:1px solid #2d5379;font-size:17px;color:#fff}
+ .hdr nav a:last-child{border:0}
+ .hero .wrap,.dmg,.bgrid,.fg,.visit .wrap{grid-template-columns:1fr;gap:34px}
+ .card{position:static}
+ .svc{grid-template-columns:1fr}.s{border-right:0;border-bottom:1px solid var(--line)}
+ .steps{grid-template-columns:1fr 1fr;gap:24px}
+ section{padding:64px 0}
+}
+@media(max-width:600px){
+ .tel{display:none}
+ .logo small{display:none}
+ .specs{grid-template-columns:1fr}.specs div{border-right:0;border-bottom:1px solid var(--line)}
+ .steps{grid-template-columns:1fr}
+ .gal{grid-template-columns:1fr 1fr}.gal img:first-child{grid-column:span 2}.gal img{height:180px}
+ .fgrid{grid-template-columns:1fr}
+ .callbar{display:block;position:fixed;left:12px;right:12px;bottom:12px;background:var(--red);color:#fff;text-align:center;padding:15px;border-radius:6px;font-weight:600;text-decoration:none;z-index:40}
+ body{padding-bottom:80px}
+}
+</style>
+</head>
+<body>
+<div class="demo">Probni predlog sajta koji je izradio Web Komšija. Ovo nije zvanični sajt Zečević Group.</div>
+
+<header class="hdr"><div class="wrap">
+ <a class="logo" href="#top">ZEČEVIĆ GROUP<small>servis · limarija · gume</small></a>
+ <nav><a href="#ostecenje">Oštećenje?</a><a href="#usluge">Usluge</a><a href="#citroen">Citroen</a><a href="#pitanja">Pitanja</a><a href="#kontakt">Kontakt</a></nav>
+ <div class="right"><a class="tel" href="tel:+381113809506">011 380 9506</a><button class="burger" aria-label="Meni" aria-expanded="false"><i></i><i></i><i></i></button></div>
+</div></header>
+
+<section class="hero gridbg" id="top" style="padding:0"><div class="wrap">
+ <div>
+  <p class="kick">Radmile Milanović Šnajder 10 · Pašino brdo</p>
+  <h1>Citroen u dobrim rukama. <span>I karoserija.</span></h1>
+  <p>Auto servis za Citroen vozila, limarija i vulkanizer na Pašinom brdu. Mehanika, udubljenja i gume, sve u jednoj radionici.</p>
+  <div class="acts"><a class="btn" href="tel:+381113809506">Pozovite: 011 380 9506</a><a class="btn-o" href="#ostecenje">Šta je oštećeno?</a></div>
+ </div>
+ <div class="bp">
+  <span class="mono" style="left:22px;top:14px">crtež br. 01 · bočni izgled</span>
+  <svg viewBox="0 0 400 190" fill="none" stroke="#cfe0f0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+   <path d="M20 140 L30 110 Q40 96 70 92 L120 88 L160 58 Q170 50 190 50 L270 50 Q290 50 305 62 L338 92 L365 98 Q380 102 382 118 L384 140"/>
+   <path d="M20 140 L58 140 M122 140 L278 140 M342 140 L384 140"/>
+   <circle cx="90" cy="140" r="30"/><circle cx="90" cy="140" r="14"/>
+   <circle cx="310" cy="140" r="30"/><circle cx="310" cy="140" r="14"/>
+   <path d="M170 60 L165 88 M238 52 L238 88 M298 66 L300 88"/>
+   <path d="M128 88 L300 88" stroke-dasharray="4 4"/>
+   <path d="M200 100 q14 -8 28 0" stroke="#c6372c" stroke-width="2.4"/>
+   <circle cx="214" cy="104" r="20" stroke="#c6372c" stroke-dasharray="3 4"/>
+   <path d="M234 118 L262 160" stroke="#c6372c"/>
+   <path d="M60 176 L340 176 M60 170 v12 M340 170 v12" stroke="#7d98b3"/>
+  </svg>
+  <span class="mono" style="right:24px;bottom:10px;color:#e88a80">udubljenje? rešava se</span>
+ </div>
+</div></section>
+<div class="wrap"><div class="specs">
+ <div><b>Citroen</b><span>servis za Citroen vozila</span></div>
+ <div><b>Limarija</b><span>udubljenja i karoserija</span></div>
+ <div><b>Vulkanizer</b><span>gume i sezonska zamena</span></div>
+</div></div>
+
+<section id="ostecenje"><div class="wrap">
+ <p class="kick">Vodič</p>
+ <h2>Šta je oštećeno na karoseriji?</h2>
+ <p class="lead">Izaberite šta vidite na autu. Videćete kako se takvo oštećenje najčešće popravlja, pa kad pozovete, znate šta da pitate.</p>
+ <div class="dmg">
+  <div class="dl" id="dl">
+   <button data-k="ogreb"><svg viewBox="0 0 44 30" fill="none" stroke="#14304f" stroke-width="2"><rect x="2" y="4" width="40" height="22" rx="3"/><path d="M8 18 L30 10" stroke="#c6372c"/></svg>Ogrebotina na boji</button>
+   <button data-k="udub"><svg viewBox="0 0 44 30" fill="none" stroke="#14304f" stroke-width="2"><rect x="2" y="4" width="40" height="22" rx="3"/><path d="M14 15 q8 -7 16 0" stroke="#c6372c"/></svg>Udubljenje, boja čitava</button>
+   <button data-k="udub2"><svg viewBox="0 0 44 30" fill="none" stroke="#14304f" stroke-width="2"><rect x="2" y="4" width="40" height="22" rx="3"/><path d="M14 15 q8 -7 16 0 M18 10 l4 8" stroke="#c6372c"/></svg>Udubljenje sa oštećenom bojom</button>
+   <button data-k="branik"><svg viewBox="0 0 44 30" fill="none" stroke="#14304f" stroke-width="2"><path d="M4 10 h36 q2 0 2 3 v6 q0 3 -2 3 h-36 q-2 0 -2 -3 v-6 q0 -3 2 -3z"/><path d="M20 10 l3 6 -2 6" stroke="#c6372c"/></svg>Napukao branik</button>
+   <button data-k="rdja"><svg viewBox="0 0 44 30" fill="none" stroke="#14304f" stroke-width="2"><rect x="2" y="4" width="40" height="22" rx="3"/><circle cx="30" cy="20" r="4" stroke="#c6372c"/><circle cx="24" cy="22" r="2" stroke="#c6372c"/></svg>Rđa na pragu ili blatobranu</button>
+  </div>
+  <div class="card" id="card"><span class="mono">izaberite levo</span><h3>Svako oštećenje ima svoj postupak</h3><p>Nekad je dovoljno ispraviti lim, a nekad treba i farbati. Što ranije dođete, popravka je obično manja.</p></div>
+ </div>
+ <p class="disc">Opšti opis uobičajenih postupaka. Šta tačno treba vašem autu kažemo kad ga pogledamo.</p>
+</div></section>
+
+<section id="usluge" class="gridbg"><div class="wrap">
+ <p class="kick">Usluge</p>
+ <h2>Tri stvari, jedna radionica</h2>
+ <div class="svc">
+  <div class="s"><img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=600&q=70" alt="Motor" loading="lazy"><span class="mono">01 / servis</span><h3>Servis za Citroen vozila</h3><p>Redovno održavanje i popravke Citroen vozila.</p></div>
+  <div class="s"><img src="https://images.unsplash.com/photo-1504222490345-c075b6008014?auto=format&fit=crop&w=600&q=70" alt="Radionica" loading="lazy"><span class="mono">02 / limarija</span><h3>Auto limarija</h3><p>Udubljenja, oštećenja karoserije posle parkiranja ili manjeg udesa.</p></div>
+  <div class="s"><img src="https://images.unsplash.com/photo-1613214149922-f1809c99b414?auto=format&fit=crop&w=600&q=70" alt="Točak" loading="lazy"><span class="mono">03 / vulkanizer</span><h3>Vulkanizer</h3><p>Montaža, balansiranje i sezonska zamena guma.</p></div>
+ </div>
+ <p class="note-h" style="margin-top:22px">tačan spisak usluga dopunjujemo zajedno sa vama</p>
+</div></section>
+
+<section class="bl" id="citroen"><div class="wrap bgrid">
+ <div>
+  <p class="kick" style="color:#f0a198">Zašto servis za jednu marku</p>
+  <h2>Ko radi istu marku, zna gde da pogleda.</h2>
+  <p class="lead" style="margin-bottom:14px">Kod servisa koji svakodnevno radi na Citroen vozilima, iskustvo sa tipičnim kvarovima te marke dolazi samo od sebe.</p>
+  <ul class="chk">
+   <li>Iskustvo sa Citroen modelima</li>
+   <li>Mehanika i limarija na istom mestu</li>
+   <li>Gume rešite u istom dolasku</li>
+  </ul>
+ </div>
+ <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=900&q=72" alt="Detalj motora" loading="lazy">
+</div></section>
+
+<section><div class="wrap">
+ <p class="kick">Dolazak</p>
+ <h2>Kako ide kod nas</h2>
+ <div class="steps">
+  <div class="st"><span class="mono">korak 01</span><h3>Pozovete</h3><p>Opišete kvar ili oštećenje, dogovorimo termin.</p></div>
+  <div class="st"><span class="mono">korak 02</span><h3>Pregled</h3><p>Pogledamo auto i kažemo šta treba.</p></div>
+  <div class="st"><span class="mono">korak 03</span><h3>Dogovor</h3><p>Cena i rok pre početka rada.</p></div>
+  <div class="st"><span class="mono">korak 04</span><h3>Preuzimanje</h3><p>Auto spreman, sa objašnjenjem šta je urađeno.</p></div>
+ </div>
+ <div class="gal">
+  <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=800&q=70" alt="Servis" loading="lazy">
+  <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=600&q=70" alt="Alat" loading="lazy">
+  <img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?auto=format&fit=crop&w=600&q=70" alt="Majstor" loading="lazy">
+ </div>
+ <p class="ph">Fotografije su ilustracija. Na pravom sajtu stoje fotografije vaše radionice.</p>
+ <div class="slot"><span class="note-h">mesto za utiske mušterija</span><br>Ovde ubacujemo vaše prave recenzije sa Google-a. Ne izmišljamo ih.</div>
+</div></section>
+
+<section id="pitanja" style="padding-top:20px"><div class="wrap fg">
+ <div><p class="kick">Česta pitanja</p><h2>Pitate nas</h2><p class="lead">Za sve ostalo pozovite 011 380 9506 ili 063 222 960.</p></div>
+ <div>
+  <details open><summary>Da li radite samo Citroen?</summary><p>Specijalizovani smo za Citroen vozila. Za druge marke pozovite i pitajte.</p></details>
+  <details><summary>Da li može udubljenje bez farbanja?</summary><p>Ako boja nije oštećena, često može. To vidimo kad pogledamo oštećenje.</p></details>
+  <details><summary>Da li radite gume?</summary><p>Da, imamo vulkanizera: montaža, balansiranje i sezonska zamena.</p></details>
+  <details><summary>Gde da parkiram?</summary><p>U ulici je zelena zona, a garaža TC Pašino brdo je na oko 190 m.</p></details>
+  <details><summary>Kada radite?</summary><p>Pozovite 011 380 9506 za radno vreme i termin.</p></details>
+ </div>
+</div></section>
+
+<section class="visit gridbg" id="kontakt"><div class="wrap">
+ <div>
+  <p class="kick">Kontakt</p>
+  <h2>Radmile Milanović Šnajder 10</h2>
+  <p class="lead">Pašino (Lekino) brdo, Voždovac. Stanica Škola Vojislav Ilić je na oko 190 m.</p>
+  <table class="tbl">
+   <tr><td>Telefon</td><td><a href="tel:+381113809506">011 380 9506</a></td></tr>
+   <tr><td>Mobilni</td><td><a href="tel:+38163222960">063 222 960</a></td></tr>
+   <tr><td>Mejl</td><td><a href="mailto:zecevicgroup@sbb.rs">zecevicgroup@sbb.rs</a></td></tr>
+   <tr><td>Radno vreme</td><td>pozovite za termin</td></tr>
+   <tr><td>Parking</td><td>zelena zona; garaža TC Pašino brdo</td></tr>
+  </table>
+ </div>
+ <div class="map"><iframe loading="lazy" title="Mapa: Radmile Milanović Šnajder 10, Beograd" src="https://maps.google.com/maps?q=Radmile%20Milanovi%C4%87%20%C5%A0najder%2010%2C%20Beograd&z=16&output=embed"></iframe></div>
+</div></section>
+
+<footer><div class="wrap">
+ <div class="fgrid">
+  <div><a class="logo" href="#top" style="color:#fff">ZEČEVIĆ GROUP</a><p style="margin-top:10px;max-width:300px">Servis za Citroen vozila, limarija i vulkanizer. Pašino brdo, Voždovac.</p></div>
+  <div><h4>Kontakt</h4><ul><li><a href="tel:+381113809506">011 380 9506</a></li><li><a href="tel:+38163222960">063 222 960</a></li><li><a href="mailto:zecevicgroup@sbb.rs">zecevicgroup@sbb.rs</a></li></ul></div>
+  <div><h4>Usluge</h4><ul><li>Servis za Citroen</li><li>Limarija</li><li>Vulkanizer</li></ul></div>
+ </div>
+ <div class="copy"><span>© 2026 Zečević Group</span><span>Probni predlog: Web Komšija</span></div>
+</div></footer>
+<a class="callbar" href="tel:+381113809506">Pozovite: 011 380 9506</a>
+
+<script>
+const hdr=document.querySelector(".hdr"),bur=document.querySelector(".burger");
+bur.onclick=()=>{const o=hdr.classList.toggle("open");bur.setAttribute("aria-expanded",o);};
+document.querySelectorAll(".hdr nav a").forEach(a=>a.onclick=()=>hdr.classList.remove("open"));
+const D={ogreb:["Ogrebotina na boji","Površinska ogrebotina često može da se ispolira. Dublja, do lima ili prajmera, traži lokalno farbanje.",["procena dubine ogrebotine","poliranje ili lokalno farbanje","zaštita površine"]],
+ udub:["Udubljenje, boja čitava","Kad je boja neoštećena, lim se često može ispraviti bez farbanja. Ovo je najbrža i najjeftinija vrsta popravke karoserije.",["procena oblika i dubine","ispravljanje lima","provera da boja nije pukla"]],
+ udub2:["Udubljenje sa oštećenom bojom","Lim se ispravlja, pa se oštećeno mesto priprema i farba. Ako se odloži, na mestu oštećenja može da krene rđa.",["ispravljanje lima","priprema i kitovanje","farbanje i usklađivanje nijanse"]],
+ branik:["Napukao branik","Plastični branik se nekad može popraviti, a nekad je isplativija zamena. Zavisi od veličine i mesta pukotine.",["procena popravka ili zamena","popravka ili ugradnja branika","farbanje u boju auta"]],
+ rdja:["Rđa na pragu ili blatobranu","Rđa se širi ispod boje. Što se pre sanira, manje lima treba zameniti.",["uklanjanje rđe","sanacija ili zamena dela lima","antikorozivna zaštita i farbanje"]]};
+document.querySelectorAll("#dl button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#dl button").forEach(x=>x.classList.remove("on"));b.classList.add("on");
+ const [h,p,l]=D[b.dataset.k];document.getElementById("card").innerHTML='<span class="mono">uobičajen postupak</span><h3>'+h+'</h3><p>'+p+'</p><ol>'+l.map(x=>"<li>"+x+"</li>").join("")+'</ol><a class="btn" href="tel:+381113809506">Pozovite za procenu</a>';});
+</script>
+</body>
+</html>
